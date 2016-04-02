@@ -1,0 +1,370 @@
+body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, code, del, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, thead, tr, th, td, blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;	
+	font-family: inherit;
+	vertical-align: baseline;
+}
+	
+em 
+{
+	font-style:italic;
+}
+
+body	
+{
+	background-color: #fff;
+}  
+
+a 
+{
+	color: #000;
+}
+
+div#container 
+{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+div#cover
+{
+	background-color: #fff;
+}
+
+div.caption
+{
+	text-align: center;
+	font-family: 'Permanent Marker', Georgia, Times New Roman;
+	color: #000;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 28px;
+	margin-top: 60px;
+}
+
+div.author
+{	
+	margin-top: 100px;
+	text-align: center;
+	font-family: Georgia, Times New Roman;
+	color: #000;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 28px;
+}
+
+.btn-return
+{
+	display: none;
+}
+
+.left { float: left;}
+.right { float: right;}
+
+h1
+{	
+	font-family: 'Copse', Georgia;
+	/*color: #80C8FE;*/
+	color: #000;
+	font-size: 68px;
+	line-height: 68px;
+	margin-top: 120px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'Copse', Georgia;
+	font-size: 32px;
+	line-height: 28px;	
+	margin-bottom: 40px;
+	padding-top: 250px;
+	color: #000;
+}
+
+h2#how
+{
+	padding-top: 50px;
+}
+
+h3
+{	
+	font-family: 'Copse', Georgia;
+	font-size: 24px;
+	line-height: 28px;	
+	padding-top: 100px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: #000;
+}
+
+h4
+{	
+	font-family: 'Copse', Georgia;
+	font-size: 18px;
+	line-height: 28px;	
+	padding-top: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #000;
+}
+
+span.code
+{
+	font-family: Courier New, Courier;
+}
+
+div.content p.footnote
+{
+	font-size: 12px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+pre, code
+{
+	text-indent: 0;
+	font-family: Courier New, Courier;
+	padding: 20px 0 20px 15px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	text-indent: 0;
+	border-left: solid 2px #ccc;
+	display: block;
+}
+
+div#copyright
+{
+	visibility: hidden;
+	width: 500px;
+	margin: 0 0 0 85px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	font-size: 11px;
+	font-family: Arial;
+	color: #000;
+
+}
+
+div.content 
+{
+	visibility: hidden;
+	background-color: #fff;
+	margin: 0 80px 0 80px;
+	font-family: Georgia, Times New Roman;
+	font-size: 16px;
+	page-break-after: always;
+}
+
+div.content a
+{
+	text-decoration: none;
+	border-bottom: dotted 1px #666;
+}
+
+div.content p
+{
+	text-indent: 20px;
+	text-align: justify;
+	line-height: 28px;	
+	margin-bottom: 20px;
+}
+
+div.content p.no-indent
+{
+	text-indent: 0px;
+}
+
+div.content div.cartoon 
+{
+	text-align:center;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	
+}
+
+div.content ul,
+div.content ol
+{
+	padding: 0 30px 20px 50px;
+	margin: 0;
+}
+
+div.content ul li,
+div.content ol li
+{
+	padding-bottom: 18px;
+	line-height: 21px;
+}
+
+div#main-toc ul
+{
+	margin:0;
+	padding:0;
+}
+
+div#main-toc ul li ul
+{
+	margin: 20px 0 0 0;
+	padding:0;
+}
+
+div#main-toc ul li
+{
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	list-style-type: none;
+	padding:0;
+	margin:0 0 25px 0;
+}
+
+div#main-toc ul li ul li
+{
+	text-align: left;
+	font-size: 16px;
+	font-style: normal;
+	padding:0;
+	margin:0 0 5px 0;
+}
+
+div#main-toc ul li ul li:first-child
+{
+	margin-top: 10px;
+}
+
+
+div#header
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+h5
+{
+	text-align:center;
+	font-size: 16px;
+	font-family: Copse, Georgia, 'Times New Roman';
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+div#cover p
+{
+	margin-top: 20px;
+	text-indent: 0;
+}
+
+div.content blockquote
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #666;
+	margin-bottom: 20px;
+	line-height: 18px;
+	font-size: 16px;
+}
+
+div.content blockquote.craigslist
+{
+	padding:20px;
+	border: solid 1px #ccc;
+}
+
+div.content blockquote p
+{
+	text-indent: 0;
+	line-height: 20px;
+}
+
+div.content blockquote.craigslist p.header
+{
+	font-size:24px;
+	font-family:Serif;
+	font-weight:bold;
+	color:#000;
+}
+
+div.content blockquote.craigslist p.desc
+{
+	font-size:16px;
+	font-family:Serif;
+	font-weight:normal;
+	color:#000;
+	line-height:20px;
+}
+
+div.content blockquote.craigslist ul
+{
+	font-size:13px;
+	font-family:Serif;
+	font-weight:normal;
+	color:#000;
+	line-height:16px;
+	margin:0;
+	padding:0 0 0 10px;
+}
+
+div.content blockquote.craigslist ul li
+{
+	margin:0;
+	padding:0;
+}
+
+div.content p.center
+{
+	text-align:center;
+}
+
+table.chart
+{
+	font-family: Courier New, Courier;
+	border-bottom: solid 1px #000;
+	margin-bottom: 20px;
+}
+table.chart td,
+table.chart th
+{
+	width: 50%;
+	padding: 5px;
+	border-top: solid 1px #000;
+	font-size: 12px;
+}
+
+table.chart th
+{
+	font-weight: bold;
+	text-align:left;
+	background-color: #efefef;
+}
+
+div#controller,
+div#extras,
+div#loader,
+div#bookmark,
+div#temp-bookmark,
+div#cover-return,
+.btn-return,
+div.twitter-ch-badge,
+.back-to-cover,
+div#badges,
+div#twitter-badge,
+div#facebook-badge,
+a.in-page-meta-link
+{
+	visibility: hidden;
+	display:none;
+}
